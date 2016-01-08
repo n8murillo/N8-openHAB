@@ -1,0 +1,134 @@
+Group All
+Group gSF               (All)
+Group gFF               (All)
+Group gGF               (All)
+Group Outdoor   (All)
+Group Shutters  (All)
+Group Weather   (All)
+Group Status    (All)
+
+Group SF_Bath           "Bathroom"              <bath>          (gSF)
+Group SF_Child          "Child's Room"          <boy1>          (gSF)
+Group SF_Bed            "Bedroom"               <bedroom>       (gSF)
+Group SF_Corridor       "Corridor"              <corridor>      (gSF)
+
+Group FF_Living         "Living Room"           <video>         (gFF)
+Group FF_Kitchen        "Kitchen"               <kitchen>       (gFF)
+Group FF_Office         "Office"                <office>        (gFF)
+Group FF_Toilet         "Toilet"                <bath>          (gFF)
+Group FF_Corridor       "Corridor"              <corridor>      (gFF)
+
+/* active groups */
+Group:Switch:OR(ON, OFF)                Lights          "All Lights [(%d)]"                                   (All)
+Group:Switch:OR(ON, OFF)                Heating         "No. of Active Heatings [(%d)]"      <heating>        (All)
+Group:Number:AVG                        Temperature     "Avg. Room Temperature [%.1f °F]"    <temperature>    (Status)
+Group:Contact:OR(OPEN, CLOSED)          Windows         "Open windows [(%d)]"                <contact>        (All)
+
+/* Rollershutters */
+Switch Shutter_all (Shutters)
+
+
+/* ----------------- Second Floor ----------------- */
+/* Indoor Temperatures */
+Number Temperature_SF_Bath      "Temperature [%.1f °F]" <temperature>   (Temperature, SF_Bath)
+Number Temperature_SF_Child     "Temperature [%.1f °F]" <temperature>   (Temperature, SF_Child)
+Number Temperature_SF_Bed       "Temperature [%.1f °F]" <temperature>   (Temperature, SF_Bed)
+/* Lights */
+Switch Light_SF_Bath_Ceiling            "Ceiling"               (SF_Bath, Lights)
+Switch Light_SF_Bath_Mirror             "Mirror"                (SF_Bath, Lights)
+Switch Light_SF_Corridor_Ceiling        "Corridor"              (SF_Corridor, Lights)
+Switch Light_SF_Child_Ceiling           "Ceiling"               (SF_Child, Lights)
+Switch Light_SF_Bed_Ceiling             "Ceiling"               (SF_Bed, Lights)
+/* Heating */
+Switch Heating_SF_Bath          "Bath"          <heating>       (SF_Bath, Heating)
+Switch Heating_SF_Child         "Child's Room"  <heating>       (SF_Child, Heating)
+Switch Heating_SF_Bed           "Bedroom"       <heating>       (SF_Bed, Heating)
+/* Windows */
+Contact Window_SF_Bath                  "Bath [MAP(en.map):%s]"                 (SF_Bath, Windows)
+Contact Window_SF_Bed                   "Bedroom [MAP(en.map):%s]"              (SF_Bed, Windows)
+/* Rollershutters */
+Rollershutter Shutter_SF_Bed                    "Bedroom"               (SF_Bed, Shutters)
+Rollershutter Shutter_SF_Bath                   "Bath"                  (SF_Bath, Shutters)
+
+/* ----------------- First Floor ----------------- */
+/* Indoor Temperatures */
+Number Temperature_FF_Corridor  "Temperature [%.1f °F]" <temperature>   (Temperature, FF_Corridor)
+Number Temperature_FF_Toilet    "Temperature [%.1f °F]" <temperature>   (Temperature, FF_Toilet)
+Number Temperature_FF_Living    "Temperature [%.1f °F]" <temperature>   (Temperature, FF_Living)
+Number Temperature_FF_Kitchen   "Temperature [%.1f °F]" <temperature>   (Temperature, FF_Kitchen)
+Number Temperature_FF_Office    "Temperature [%.1f °F]" <temperature>   (Temperature, FF_Office)
+/* Lights */
+Dimmer Light_FF_Living_Table            "Table"                 (FF_Living, Lights)
+Switch Light_FF_Corridor_Ceiling        "Ceiling"               (FF_Corridor, Lights)
+Switch Light_FF_Kitchen_Ceiling         "Ceiling"               (FF_Kitchen, Lights)
+Switch Light_FF_Kitchen_Table           "Table"                 (FF_Kitchen, Lights)
+Switch Light_FF_Corridor_Wardrobe       "Wardrobe"              (FF_Corridor, Lights)
+Switch Light_FF_Toilet_Ceiling          "Ceiling"               (FF_Toilet, Lights)
+Switch Light_FF_Toilet_Mirror           "Mirror"                (FF_Toilet, Lights)
+Switch Light_FF_Office_Ceiling          "Ceiling"               (FF_Office, Lights)
+/* Heating */
+Switch Heating_FF_Corridor      "GF Corridor"   <heating>       (FF_Corridor, Heating)
+Switch Heating_FF_Toilet        "Toilet"        <heating>       (FF_Toilet, Heating)
+Switch Heating_FF_Living        "Livingroom"    <heating>       (FF_Living, Heating)
+Switch Heating_FF_Kitchen       "Kitchen"       <heating>       (FF_Kitchen, Heating)
+Switch Heating_FF_Office        "Office"        <heating>       (fF_Office, Heating)
+/* Windows */
+Contact Window_FF_Frontdoor             "Frontdoor [MAP(en.map):%s]"            (FF_Corridor, Windows)
+Contact Window_FF_Kitchen               "Kitchen [MAP(en.map):%s]"              (FF_Kitchen, Windows)
+Contact Window_FF_Living                "Terrace door [MAP(en.map):%s]"         (FF_Living, Windows)
+Contact Window_FF_Toilet                "Toilet [MAP(en.map):%s]"               (FF_Toilet, Windows)
+Contact Window_FF_Office_Window         "Office Window [MAP(en.map):%s]"        (FF_Office, Windows)
+Contact Window_FF_Office_Door           "Balcony Door [MAP(en.map):%s]"         (FF_Office, Windows)
+/* Rollershutters */
+Rollershutter Shutter_FF_Toilet                 "Toilet"                (FF_Toilet, Shutters)
+Rollershutter Shutter_FF_Kitchen                "Kitchen"               (FF_Kitchen, Shutters)
+Rollershutter Shutter_FF_Living                 "Livingroom"            (FF_Living, Shutters)
+Rollershutter Shutter_FF_Office_Window          "Office Window"         (FF_Office, Shutters)
+Rollershutter Shutter_FF_Office_Door            "Office Door"           (FF_Office, Shutters)
+
+/* ----------------- Ground Floor ----------------- */
+/* Indoor Temperatures */
+/* Lights */
+Switch Light_GF_Corridor_Ceiling         "Ceiling"               (gGF, Lights)
+Switch Light_GF_Staircase                "Staircase"             (gGF, Lights)
+Switch Light_GF_Washing_Ceiling          "Washing"               (gGF, Lights)
+Switch Light_GF_Workshop                 "Workshop"              (gGF, Lights)
+/* Windows */
+
+/* ----------------- Outside ----------------- */
+/* Outside Temperatures */
+/* Lights */
+Switch Light_Outdoor_Garage             "Garage"                (Outdoor, Lights)
+Switch Light_Outdoor_Terrace            "Terrace"               (Outdoor, Lights)
+Switch Light_Outdoor_Frontdoor          "Frontdoor"             (Outdoor, Lights)
+
+Contact Garage_Door                     "Garage Door [MAP(en.map):%s]"          (Outdoor, Windows)
+
+Group Weather_Chart                                                             (Weather)
+Number Weather_Temperature   "Outside Temperature [%.1f °F]" <temperature> (Weather_Chart) {weather="locationId=home, type=temperature, property=current, unit=fahrenheit"}
+Number Weather_Humidity      "Outside Humidity [%d %%]" <temperature> (Weather) {weather="locationId=home, type=atmosphere, property=humidity"}
+Number Weather_Humidex                  "Humidex [SCALE(humidex.scale):%s]"                     (Weather)
+Number Weather_Temp_Max                 "Todays Maximum [%.1f °F]"      <temperature> (Weather_Chart)
+Number Weather_Temp_Min                 "Todays Minimum [%.1f °F]"      <temperature> (Weather_Chart)
+Number Weather_Chart_Period             "Chart Period"
+DateTime Weather_LastUpdate             "Last Update [%1$ta %1$tR]"     <clock>
+
+/* NTP binding demo item */
+DateTime                Date            "Date [%1$tA %1$tb %1$td, %1$tY]"       <calendar>  { ntp="America/New_York:en_EN" }
+
+/* Demo items */
+Switch DemoSwitch                       "Switch"
+Dimmer DimmedLight                      "Dimmer [%d %%]"          <slider>
+Color  RGBLight                         "RGB Light"               <slider>
+Rollershutter DemoShutter               "Roller Shutter"
+Dimmer DemoBlinds                       "Blinds [%d %%]"          <rollershutter>
+Number Scene_General                    "Scene"                   <sofa>
+Number Radio_Station                    "Radio"                   <network>
+Dimmer Volume                           "Volume [%.1f %%]"
+Number Temperature_Setpoint             "Temperature [%.1f °F]"   <temperature>
+
+String UnknownDevices                   "Unknown Devices in Range: [%s]" { bluetooth="?" }
+Number NoOfPairedDevices                "Paired Devices in Range: [%d]"  { bluetooth="!" }
+
+/* Locations */
+Location DemoLocation                   "Springfield, VA"

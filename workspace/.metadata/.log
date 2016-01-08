@@ -1,0 +1,850 @@
+!SESSION 2015-12-21 19:50:17.044 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 19:50:21.401
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 19:50:21.405
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 19:50:21.459
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 19:50:21.459
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 19:50:22.523
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 19:50:22.523
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 19:50:32.895
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 19:50:32.895
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 19:50:32.899
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 19:50:32.900
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 19:50:32.950
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 19:50:32.957
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2015-12-21 19:50:37.886
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2015-12-21 20:02:23.275 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:02:27.336
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:02:27.336
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:02:27.380
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:02:27.381
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:02:28.538
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:02:28.538
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:02:38.952
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:02:38.952
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:02:38.958
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:02:38.958
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:02:39.004
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:02:39.004
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2015-12-21 20:02:44.255
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2015-12-21 20:09:27.138 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:09:31.340
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:09:31.340
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:09:31.388
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:09:31.388
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:09:32.591
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:09:32.592
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:09:42.983
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:09:42.984
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:09:42.990
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:09:42.990
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:09:43.044
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:09:43.044
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2015-12-21 20:09:48.049
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2015-12-21 20:14:39.122 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:14:43.341
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:14:43.341
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:14:43.389
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:14:43.389
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:14:44.635
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:14:44.635
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:14:55.086
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:14:55.086
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:14:55.092
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:14:55.092
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:14:55.139
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:14:55.139
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2015-12-21 20:15:00.068
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2015-12-21 20:31:09.452 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:31:13.496
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:31:13.496
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:31:13.542
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:31:13.542
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:31:14.731
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:31:14.732
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:31:25.244
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:31:25.246
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:31:25.252
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:31:25.252
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:31:25.306
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 20:31:25.307
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2015-12-21 20:31:30.353
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2015-12-21 21:07:44.859 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:07:49.045
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:07:49.046
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:07:49.092
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:07:49.092
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:07:50.257
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:07:50.258
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:08:00.692
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:08:00.693
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:08:00.698
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:08:00.698
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:08:00.747
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:08:00.747
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2015-12-21 21:08:05.877
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2015-12-21 21:19:08.160 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:19:12.282
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:19:12.283
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:19:12.327
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:19:12.327
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:19:13.502
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:19:13.502
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:19:23.744
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:19:23.746
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:19:23.750
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:19:23.750
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:19:23.800
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-21 21:19:23.800
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2015-12-21 21:19:27.048
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2015-12-22 17:14:22.536 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:14:27.108
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:14:27.108
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:14:27.160
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:14:27.160
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:14:28.415
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:14:28.415
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:14:38.930
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:14:38.930
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:14:38.936
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:14:38.937
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:14:38.979
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:14:38.979
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2015-12-22 17:14:43.790
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2015-12-22 17:23:19.625 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:23:23.690
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:23:23.691
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:23:23.732
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:23:23.732
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:23:24.899
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:23:24.899
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:23:35.422
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:23:35.422
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:23:35.428
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:23:35.428
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:23:35.465
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 17:23:35.465
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2015-12-22 17:23:40.610
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2015-12-22 18:42:13.628 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 18:42:17.636
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 18:42:17.636
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 18:42:17.676
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 18:42:17.677
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 18:42:18.827
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 18:42:18.827
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 18:42:29.325
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 18:42:29.328
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 18:42:29.332
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 18:42:29.332
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 18:42:29.380
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 18:42:29.380
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2015-12-22 18:42:34.339
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2015-12-22 19:02:06.757 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:02:10.883
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:02:10.883
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:02:10.930
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:02:10.930
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:02:12.131
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:02:12.131
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:02:22.421
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:02:22.423
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:02:22.429
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:02:22.429
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:02:22.477
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:02:22.477
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2015-12-22 19:02:27.627
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2015-12-22 19:03:37.325 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:03:41.424
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:03:41.424
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:03:41.471
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:03:41.472
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:03:42.634
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:03:42.635
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:03:53.081
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:03:53.083
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:03:53.088
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:03:53.088
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:03:53.136
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:03:53.136
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2015-12-22 19:03:58.201
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2015-12-22 19:45:57.870 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:46:02.410
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:46:02.411
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:46:02.453
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:46:02.453
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:46:03.616
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:46:03.616
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:46:14.020
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:46:14.020
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:46:14.026
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:46:14.027
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:46:14.072
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-12-22 19:46:14.072
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2015-12-22 19:46:18.959
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2016-01-07 20:40:56.665 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:41:00.871
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:41:00.871
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:41:00.916
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:41:00.917
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:41:02.254
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:41:02.254
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:41:12.765
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:41:12.765
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:41:12.772
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:41:12.772
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:41:12.816
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:41:12.819
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2016-01-07 20:41:17.969
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2016-01-07 20:42:30.754 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:42:34.713
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:42:34.713
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:42:34.752
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:42:34.753
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:42:35.879
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:42:35.880
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:42:46.117
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:42:46.118
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:42:46.124
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:42:46.124
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:42:46.168
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-07 20:42:46.168
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2016-01-07 20:42:49.435
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2016-01-08 15:17:27.492 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 15:17:31.593
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 15:17:31.593
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 15:17:31.639
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 15:17:31.639
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 15:17:32.770
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 15:17:32.770
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 15:17:43.351
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 15:17:43.351
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 15:17:43.357
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 15:17:43.357
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 15:17:43.402
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 15:17:43.405
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2016-01-08 15:17:48.431
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)
+!SESSION 2016-01-08 19:38:19.826 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 19:38:23.465
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 19:38:23.465
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 19:38:23.519
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 19:38:23.521
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 19:38:24.615
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 19:38:24.616
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 19:38:34.886
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 19:38:34.888
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 19:38:34.892
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 19:38:34.892
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 19:38:34.938
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-01-08 19:38:34.938
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.cm 4 0 2016-01-08 19:38:38.202
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.openhab.binding.xbmc.internal.XbmcActiveBinding.updated(XbmcActiveBinding.java:392)
+	at org.eclipse.equinox.internal.cm.ManagedServiceTracker$1.run(ManagedServiceTracker.java:183)
+	at org.eclipse.equinox.internal.cm.SerializedTaskQueue$1.run(SerializedTaskQueue.java:36)

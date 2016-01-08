@@ -114,7 +114,7 @@ Number Weather_Chart_Period             "Chart Period"
 DateTime Weather_LastUpdate             "Last Update [%1$ta %1$tR]"     <clock>
 
 /* Splash page Date & Time */
-DateTime                Date            "Date [%1$tA %1$tb %1$td, %1$tY]"       <calendar>  { ntp="America/New_York:en_EN" }
+DateTime                Date            "Date [%1$tA %1$tb %1$td, %1$tY %1$tr]"       <calendar>  { ntp="America/New_York:en_EN" }
 
 /* NTP binding demo item */
 /* Demo items */

@@ -7,10 +7,12 @@ sitemap home label="Casa de Murillo"
                 Group item=Outdoor icon="garden"
         }
         Frame label="Weather" {
-                Text item=Weather_Temperature valuecolor=[Weather_LastUpdate=="Uninitialized"="lightgray",Weather_LastUpdate>90="lightgray",>25="orange",>15="green",>5="orange",<=5="blue"] {
+                Text item=Weather_Temperature valuecolor=[Weather_LastUpdate=="Uninitialized"="red",Weather_LastUpdate>90="lightgray",>25="orange",>15="green",>5="orange",<=5="blue"] {
                         Frame {
+                                Text item=Weather_LastUpdate
                                 Text item=Weather_Temp_Max valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]
                                 Text item=Weather_Temp_Min valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]
+                                Text item=Weather_Rain
                                 Text item=Weather_Humidity
                                 Text item=Weather_Humidex
                                 Text item=Weather_LastUpdate visibility=[Weather_LastUpdate>30] valuecolor=[Weather_LastUpdate>120="orange", Weather_LastUpdate>300="red"]

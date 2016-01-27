@@ -105,15 +105,18 @@ Switch Light_Outdoor_Frontdoor          "Frontdoor"             (Outdoor, Lights
 Contact Garage_Door                     "Garage Door [MAP(en.map):%s]"          (Outdoor, Windows)
 
 Group Weather_Chart      (Weather)
+DateTime Weather_LastUpdate  "Last Update [%1$tH:%1$tM-%1$td.%1$tm.%1$tY]" {weather="locationId=home, type=condition, property=lastUpdate"}
 Number Weather_Temperature   "Outside Temperature [%.1f °F]" <temperature> (Weather_Chart) {weather="locationId=home, type=temperature, property=current, unit=fahrenheit"}
 Number Weather_Humidity      "Outside Humidity [%d %%]" <temperature> (Weather) {weather="locationId=home, type=atmosphere, property=humidity"}
-Number Weather_Humidex       "Humidex [SCALE(humidex.scale):%s]"                     (Weather)
+Number Weather_Humidex       "Humidex [SCALE(humidex.scale):%s]" (Weather)
 Number Weather_Wind_Speed    "Windspeed [%.1f mph]"      {weather="locationId=home, type=wind, property=speed, unit=mph"}
 Number Weather_Rain          "Todays Rain [%.2f in/h]"   {weather="locationId=home, type=precipitation, property=rain, unit=inches"}
-Number Weather_Temp_Max      "Todays Maximum [%.1f °F]"  <temperature> (Weather_Chart) {weather="locationId=home, type=temperature, property=max, unit=fahrenheit"}
-Number Weather_Temp_Min      "Todays Minimum [%.1f °F]"  <temperature> (Weather_Chart) {weather="locationId=home, type=temperature, property=min, unit=fahrenheit"}
-Number Weather_Chart_Period             "Chart Period"
-DateTime Weather_LastUpdate             "Last Update [%1$ta %1$tR]"     <clock>
+Number Weather_Snow          "Todays Snow [%.2f in/h]"   {weather="locationId=home, type=precipitation, property=snow, unit=inches"}
+Number Weather_Temp_Max      "Todays High [%.1f °F]" <temperature> (Weather_Chart) {weather="locationId=home, forecast=0, type=temperature, property=max, unit=fahrenheit"}
+Number Weather_Temp_Min      "Todays Low [%.1f °F]"  <temperature> (Weather_Chart) {weather="locationId=home, forecast=0, type=temperature, property=min, unit=fahrenheit"}
+
+Number Weather_Chart_Period       "Chart Period"
+
 
 /* Splash page Date & Time */
 DateTime                Date            "Date [%1$tA %1$tb %1$td, %1$tY %1$tr]"       <calendar>  { ntp="America/New_York:en_EN" }
